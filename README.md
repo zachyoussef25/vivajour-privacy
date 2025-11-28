@@ -1,0 +1,2 @@
+# vivajour-privacy
+Privacy policy
