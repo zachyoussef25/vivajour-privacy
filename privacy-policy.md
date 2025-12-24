@@ -16,9 +16,12 @@ We do not:
 EXIF metadata (date, location, camera info) is processed only on-device to help organize albums and is never transmitted.
 
 ## 3. Optional Sharing
-If you choose to share an album, VivaJour uploads optimized images and layout data to Firebase Storage using encrypted HTTPS to generate a share link.  
-This is a fully user-initiated action.  
-No personal identifiers, EXIF data, or analytics are included.
+If you choose to share an album, VivaJour temporarily uploads user-selected images and layout data to generate a shareable link.
+
+This action is fully user-initiated and optional.
+VivaJour does not associate shared content with user accounts, does not collect personal identifiers, and does not use shared content for analytics, tracking, or advertising.
+
+Shared content is delivered over encrypted HTTPS connections and is used solely to fulfill the user’s explicit sharing request.
 
 ## 4. Local Storage
 Albums, preferences, and journaling notes remain on your device. Deleting the App removes all locally stored data.
